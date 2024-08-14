@@ -1,0 +1,21 @@
+
+
+Super
+dataset: iSAID
+backbone: DeiT-B/16-384 # DeiT-S/16 DeiT-T/16 DeiT-B/16-384
+vit_depth: 11
+bs: 12
+height: 256                    #default:480
+width: 256                    #default:480
+lr: 0.002 #0.001
+test_n: 1000
+epochs: 30
+fg_num: 5
+agg_depth: 6
+unlabeled: 5
+filter: 0.7
+ann_type: scribble  # dense /bbox /scribble
+network: super_baseline     # super_baseline
+pair_lossW: 0.02
+split: 0 #0,1,2
+shot: 1
