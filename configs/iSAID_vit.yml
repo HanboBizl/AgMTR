@@ -8,7 +8,7 @@ test_n: 1000
 epochs: 40
 height: 256                    #default:480
 width: 256                    #default:480
-lr: 0.0005 #0.001
+lr: 0.0002 #0.001
 fg_num: 5
 unlabeled: 5
 agg_depth: 6
